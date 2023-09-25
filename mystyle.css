@@ -1,0 +1,202 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+.navbar, .bg-pink{
+  /* background: #dac07c; */
+  /* background: whitesmoke */
+  /* background: #86a8cf; */
+  background: #e0c8d6;
+}
+
+.bg-pink:hover{
+  background: #c49fb5;
+}
+
+.navbar-nav .nav-link {
+  color: rgb(0, 0, 0);
+  /* font-style: bold; */
+  /* color:whitesmoke */
+}
+
+.nav-link:hover {
+  color: rgb(163, 163, 163);
+  cursor: pointer;
+  /* background-color: #86a8cf; */
+}
+h1,
+.p-white,
+h2 {
+  /* color: black; */
+  color: whitesmoke;
+}
+
+.main-part {
+  background: linear-gradient(
+    0deg,
+    rgba(14, 31, 48, 1) 0%,
+    rgba(38, 66, 90, 1) 4%,
+    rgba(134, 168, 207, 1) 28%,
+    rgba(225, 203, 215, 1) 50%,
+    rgba(195, 142, 180, 1) 72%,
+    rgba(12, 29, 72, 1) 96%
+  );
+  /* background: rgb(237, 220, 174);
+  background: linear-gradient(
+    0deg,
+    rgba(237, 220, 174, 1) 0%,
+    rgba(155, 169, 134, 1) 0%,
+    rgba(221, 223, 209, 1) 31%,
+    rgba(243, 243, 234, 1) 49%,
+    rgba(237, 234, 229, 1) 66%,
+    rgba(246, 222, 222, 1) 96%
+  ); */
+  /* background: rgb(14, 32, 42);
+  background: linear-gradient(
+    0deg,
+    rgba(14, 32, 42, 1) 0%,
+    rgba(61, 77, 85, 1) 15%,
+    rgba(167, 158, 156, 1) 36%,
+    rgba(211, 195, 185, 1) 51%,
+    rgba(181, 136, 99, 1) 79%,
+    rgba(22, 22, 22, 1) 96%
+  ); */
+  /* background: linear-gradient(0deg, rgba(14,31,48,1) 0%, rgba(38,66,90,1) 13%, rgba(134,168,207,1) 28%, rgba(225,203,215,1) 50%, rgba(195,142,180,1) 72%, rgba(12,29,72,1) 96%);; */
+}
+
+.main img {
+  -webkit-box-shadow: -8px 7px 35px 0px rgba(150, 150, 150, 1);
+  -moz-box-shadow: -8px 7px 35px 0px rgba(150, 150, 150, 1);
+  box-shadow: -8px 7px 35px 0px rgba(150, 150, 150, 1);
+}
+.footer {
+  /* background: #9ba986; */
+  background: #0e1f30;
+}
+
+.text-center {
+  color: whitesmoke;
+}
+
+.informasi {
+  /* color: rgb(114, 114, 114); */
+  color: rgb(202, 197, 197);
+}
+.informasi .tel {
+  /* color: rgb(114, 114, 114); */
+  color: rgb(202, 197, 197);
+}
+
+.border {
+  width: 80%;
+  margin-top: 10px;
+  margin-left: 10px;
+  border-radius: 6px;
+}
+
+
+
+@font-face {
+    font-family: 'Coolvetica';
+    src: url('../coolvetica rg.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+div {
+    text-align: justify;
+    text-justify: inter-word;
+  }
+
+h1, h2, h3{
+    font-family: 'Coolvetica', Arial, sans-serif;
+}
+
+h2, h3, p, .btn-text{
+    color:rgb(39, 34, 31)
+}
+
+
+
+/* Another example for a specific class */
+.coolvetica-font {
+    font-family: 'Coolvetica', Arial, sans-serif;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+/* .arrow-down {
+  height: 0;
+  width: 0;
+    border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+}
+
+.arrow-down.top-arrow {
+  border-top: 20px solid #808080;
+  position: relative;
+  top: 10px;
+  -webkit-animation: floating 2s infinite;
+  z-index: 10;
+}
+
+.arrow-down.bottom-arrow {
+  -webkit-animation: floating-phase 2s infinite;
+
+  border-top: 20px solid #dcdcdc;
+}
+
+.arrow-down-unicode {
+  transform: scale(2, 1)
+}
+
+@keyframes floating {
+  0% {
+    transform: translate(0, -4px);
+  }
+  50% {
+    transform: translate(0, 4px);
+  }
+  100% {
+    transform: translate(0, -4px);
+  }
+}
+
+@-webkit-keyframes floating {
+  0%{
+    transform: translate(0, -4px);
+  }
+  50% {
+    transform: translate(0, 4px);
+  }
+  100% {
+    transform: translate(0, -4px);    
+  }
+}
+
+@-webkit-keyframes floating-phase {
+  0% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(0, -4px);
+  }
+  75% {
+    transform: translate(0, 4px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+} */
+
+/* .profile img {
+    max-width: 150px;
+    border-radius: 50%; /* Untuk membuat sudut foto menjadi bulat */
+/* } */ 
